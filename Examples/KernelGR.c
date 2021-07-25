@@ -50,7 +50,7 @@ double KernelGR(double *Data, double *Params, double *Jacobian){
 int main()
 {
     size_t ArraySizes[6] = {125, 7875, 157500, 1375, 11, 6}, PositionByte[5] = {17436, 17936, 49436, 680144, 685712};
-    char *FileName = "Data/sources_song_z001.dat";
+    char *FileName = "Data/sources_song_z000.dat";
 
     struct DATA Data;
 
