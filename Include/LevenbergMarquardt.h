@@ -22,7 +22,7 @@ struct PARAMSCORRECTION{
 
 
 void LevenbergMarquardt(
-    double (*ModelFunc)(double*, double* , double*),
+    double (*ModelFuncResidue)(double*, double* , double*),
     double *Data,
     size_t DataSize,
     int VariableSize,
@@ -30,7 +30,7 @@ void LevenbergMarquardt(
     int ParamsSize);
 
 struct PARAMSCORRECTION ParamsCorrection(
-    double (*ModelFunc)(double*, double*, double*),
+    double (*ModelFuncResidue)(double*, double*, double*),
     double *Data,
     size_t DataSize,
     int VariableSize,
