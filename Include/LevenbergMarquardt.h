@@ -5,7 +5,6 @@
     Header file for "LevenbergMarquardt.c"
 **/
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -46,6 +45,5 @@ double *QRDecomposition(
     int ParamsSize,
     double M[][ParamsSize],
     double Gradient[]);
-
 
 #endif // LEVENBERGMARQUARDT_H_INCLUDED
