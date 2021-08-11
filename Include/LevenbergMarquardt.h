@@ -2,7 +2,7 @@
 #define LEVENBERGMARQUARDT_H_INCLUDED
 
 /**
-    Header file for Levenberg Marquardt.c
+    Header file for "LevenbergMarquardt.c"
 **/
 
 
