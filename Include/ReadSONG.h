@@ -1,6 +1,10 @@
 #ifndef READSONG_H_INCLUDED
 #define READSONG_H_INCLUDED
 
+/**
+    Header file for "ReadSONG.c"
+**/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
