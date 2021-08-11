@@ -11,7 +11,6 @@
 #include <time.h>
 
 struct DATA {
-
     double *Data;
     size_t DataSize;
     int VariableSize;
