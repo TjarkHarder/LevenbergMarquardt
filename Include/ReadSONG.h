@@ -29,5 +29,4 @@ struct DATA ReadBinaryCDMKernelSONG(
     char *FileName,
     int *RandomSampleSize);
 
-
 #endif // READSONG_H_INCLUDED
