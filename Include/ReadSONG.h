@@ -16,13 +16,6 @@ struct DATA {
     int VariableSize;
 };
 
-int *InverseIndexTransform1(
-    int index);
-
-int *InverseIndexTransform2(
-    int k3_size[],
-    int index);
-
 struct DATA ReadBinaryCDMKernelSONG(
     size_t *ArraySizes,
     size_t *PositionByte,
