@@ -86,7 +86,7 @@ int main()
     */
 
     // Initial parameters and number of parameters
-    double Params[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
+    double Params[] = {0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1};
     int ParamsSize = 17;
 
     // Run the algorithm
