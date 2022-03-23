@@ -474,7 +474,7 @@ double *QRDecomposition(int ParamsSize, double M[][ParamsSize], double Gradient[
         Temp2 = 0;
 
         /*
-        for (int j = 0; j < dim; j++)
+        for (int j = 0; j < ParamsSize; j++)
             Temp3[j] = 0;
         */
 
